@@ -3,6 +3,7 @@ import React from 'react';
 import './Title.css';
 import { NavLink } from 'react-router-dom';
 import RandomSpace from './RandomSpace/RandomSpace';
+// import SearchBar from './SearchBar/SearchBar';
 
 function Title() {
   return (

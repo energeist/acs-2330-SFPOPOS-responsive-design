@@ -24,7 +24,7 @@ function POPOSDetails(props) {
         <p className="POPOSDetails-features">
           <POPOSFeatureList features={ features }/>
         </p>
-        <p className="POPOSDetails-geo">{ geo.lat } { geo.lon }</p>
+        <p className="POPOSDetails-geo"><em>lat: </em>{ geo.lat } <em>lon: </em>{ geo.lon }</p>
       </div>
     </div>
   )

@@ -7,6 +7,9 @@ import Footer from './Footer';
 import POPOSDetails from './POPOSDetails';
 import { Outlet } from 'react-router-dom';
 
+//add in query hook here, pass function to Title and pass filtered object to Outlet?
+//hook might also go to index.js and pass there
+
 function App() {
   return (
     <div>
