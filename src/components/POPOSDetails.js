@@ -3,6 +3,7 @@
 import React from 'react';
 import { useParams } from 'react-router';
 import data from '../sfpopos-data.json';
+import POPOSFeatureList from './POPOSFeatureList';
 import './POPOSDetails.css';
 
 function POPOSDetails(props) {
@@ -20,7 +21,9 @@ function POPOSDetails(props) {
         <h1 className="POPOSDetails-title">{ title }</h1>
         <p className="POPOSDetails-desc">{ desc }</p>
         <p className="POPOSDetails-hours">{ hours }</p>
-        <p className="POPOSDetails-features">{ features }</p>
+        <p className="POPOSDetails-features">
+          <POPOSFeatureList features={ features }/>
+        </p>
         <p className="POPOSDetails-geo">{ geo.lat } { geo.lon }</p>
       </div>
     </div>
