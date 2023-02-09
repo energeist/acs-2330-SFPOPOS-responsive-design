@@ -16,12 +16,12 @@ function POPOSList() {
   .map(({ title, address, images, hours, id } ) => {
     return (
       <POPOSSpace
-        id={id}
-        key={title}
-        name={title}
-        address={address?address:"No address listed"}
-        hours={hours?hours:"No hours available"}
-        image={images[0]}
+        id={ id }
+        key={ title }
+        name={ title }
+        address={ address ? address : "No address listed" }
+        hours={ hours ? hours : "No hours available" }
+        image={ images[0] }
       />
     )
   });
@@ -36,9 +36,9 @@ function POPOSList() {
         />
         <button type="submit">Submit</button>
       </form>
-    <div className="POPOSList">
-      { spaces.length > 0 ? spaces : "No results match your search" } 
-    </div>
+      <div className="POPOSList">
+        { spaces.length > 0 ? spaces : "No results match your search" } 
+      </div>
     </div>
   )
 }
