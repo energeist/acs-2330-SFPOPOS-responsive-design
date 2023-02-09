@@ -5,7 +5,7 @@ import './Footer.css';
 function Footer() {
   return (
     <div className='Footer'>
-      <p>Mark Rattle, 2023 - for ACS-1320</p>
+      <p>Mark Rattle 2023 - for ACS-1320</p>
     </div>
   )
 }
