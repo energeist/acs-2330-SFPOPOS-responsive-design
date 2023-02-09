@@ -13,7 +13,7 @@ function POPOSList() {
     const inTitle = obj.title.toLowerCase().includes(query.toLowerCase())
     const inAddress = obj.address.toLowerCase().includes(query.toLowerCase())
     return inTitle || inAddress })
-  .map(({ title, address, images, hours, id, features } ) => {
+  .map(({ title, address, images, hours, id } ) => {
     return (
       <POPOSSpace
         id={id}
@@ -27,7 +27,6 @@ function POPOSList() {
   });
 
   return (
-
     <div className="POPOSSearch">
       <form>
         <input
@@ -38,7 +37,7 @@ function POPOSList() {
         <button type="submit">Submit</button>
       </form>
     <div className="POPOSList">
-      { spaces }
+      { spaces.length > 0 ? spaces : "No results match your search" } 
     </div>
     </div>
   )

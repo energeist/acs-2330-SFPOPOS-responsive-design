@@ -1,1 +1,0 @@
-// componentized search bar, will require state passed back to App.js and then in to list for rendering filtered list

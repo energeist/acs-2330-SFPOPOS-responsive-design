@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import './RandomSpace.css';
+// import './RandomSpace.css';
 import data from '../../sfpopos-data.json';
 
 function RandomSpace() {

@@ -16,13 +16,17 @@
 	font-size: 50px;
   padding: 0;
   margin: 0 0.25em 0.25em 0;
-
 }
 
 .Title-Subtitle {
   color: rgba(255, 255, 255, 0.85);
   margin-bottom: 1em;
   font-size: larger;
+}
+
+.Title-Buttons {
+  display: flex;
+  flex-direction: row;
 }
 
 .Title a {

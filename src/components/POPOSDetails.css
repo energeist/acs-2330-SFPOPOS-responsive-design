@@ -1,6 +1,7 @@
 .POPOSDetails {
 	display: flex;
 	flex-direction: row-reverse;
+	align-items: center;
 	width: 960px;
 	margin: auto;
 }
