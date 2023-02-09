@@ -7,13 +7,22 @@
   justify-content: center;
   align-items: baseline;
   padding: 1em;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   background-color: rgb(192, 45, 26);
   color: #fff;
 }
 
+.Title h1 {
+	font-size: 50px;
+  padding: 0;
+  margin: 0 0.25em 0.25em 0;
+
+}
+
 .Title-Subtitle {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 1em;
+  font-size: larger;
 }
 
 .Title a {

@@ -6,7 +6,7 @@
   width: calc(100% - 80px);
   max-width: 1200px;
   margin: auto;
-  padding: 2em;
+  padding: 1em 2em 2em 2em;
 }
 
 /* smaller screens and tbalets */
@@ -23,25 +23,33 @@
 	}
 }
 
-.POPOSList form {
+.POPOSSearch form {
 	display: flex;
-	align-items: flex-start;
+	align-items: center;
 }
 
-.POPOSList form input, .POPOSList form button {
+.POPOSSearch form input, .POPOSSearch form button {
 	padding: 1em;
 	margin: 0;
 	border: 1px solid;
 	font-size: 1rem;
 }
 
-.POPOSList form input {
-	flex: 1;
-	border-top-left-radius: 0.5em;
-	border-bottom-left-radius: 0.5em;
+.POPOSSearch form input {
+	margin-left: 2.5em;
 }
 
-.POPOSList form button {
+.POPOSSearch form button {
+	margin-right: 2.5em;
+}
+
+.POPOSSearch form input {
+	flex: 1;
+	/* border-top-left-radius: 0.5em;
+	border-bottom-left-radius: 0.5em; */
+}
+
+/* .POPOSSearch form button {
 	border-top-right-radius: 0.5em;
 	border-bottom-right-radius: 0.5em;
-}
+} */

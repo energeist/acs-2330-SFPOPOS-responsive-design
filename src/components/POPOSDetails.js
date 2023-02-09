@@ -21,9 +21,9 @@ function POPOSDetails(props) {
         <h1 className="POPOSDetails-title">{ title }</h1>
         <p className="POPOSDetails-desc">{ desc }</p>
         <p className="POPOSDetails-hours">{ hours }</p>
-        <p className="POPOSDetails-features">
+        <div className="POPOSDetails-features">
           <POPOSFeatureList features={ features }/>
-        </p>
+        </div>
         <p className="POPOSDetails-geo"><em>lat: </em>{ geo.lat } <em>lon: </em>{ geo.lon }</p>
       </div>
     </div>
