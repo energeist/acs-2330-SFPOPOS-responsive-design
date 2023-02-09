@@ -1,6 +1,7 @@
 ### ACS-1320 SFPOPOS
 
 This page is available for [viewed here!](energeist.github.io/acs-1320-popos-site)
+- Styling has been updated with mobile views.
 
 ## Available Scripts
 
