@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import data from '../../sfpopos-data.json';
 
 function RandomSpace() {
-	const navigate = useNavigate();
+  const navigate = useNavigate();
   return (
 		<button 
     className="RandomSpace"

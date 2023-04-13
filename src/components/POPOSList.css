@@ -1,35 +1,18 @@
 /* src/POPOSList.css */
 .POPOSList {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 2em;
   width: calc(100% - 80px);
-  max-width: 1200px;
+  max-width: 1500px;
   margin: auto;
   padding: 1em 2em 2em 2em;
-}
-
-/* smaller screens and tbalets */
-@media only screen and (max-width: 960px) {
-  .POPOSList {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-/* Small screens mobile */
-@media only screen and (max-width: 700px) {
-	.POPOSList {
-		grid-template-columns: 1fr;
-	}
-	.POPOSSearch {
-    flex: 1;
-    margin: auto;
-  }
 }
 
 .POPOSSearch form {
 	display: flex;
 	align-items: center;
+	max-width: 1500px;
 }
 
 .POPOSSearch form input, .POPOSSearch form button {
@@ -40,7 +23,7 @@
 }
 
 .POPOSSearch form input {
-  min-width: 100px;
+	min-width: 100px;
 	margin-left: 2.5em;
 }
 
@@ -58,3 +41,27 @@
 	border-top-right-radius: 0.5em;
 	border-bottom-right-radius: 0.5em;
 } */
+
+@media only screen and (max-width: 1350px) {
+	.POPOSList {
+	  grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+
+/* smaller screens and tablets */
+@media only screen and (max-width: 992px) {
+  .POPOSList {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Small screens mobile */
+@media only screen and (max-width: 768px) {
+	.POPOSList {
+		grid-template-columns: 1fr;
+	}
+	.POPOSSearch {
+    flex: 1;
+    margin: auto;
+  }
+}

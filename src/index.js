@@ -7,6 +7,7 @@ import About from './components/About';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import POPOSDetails from './components/POPOSDetails';
+import NewsLetter from './components/NewsLetter';
 
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
@@ -18,12 +19,10 @@ root.render(
         <Route path="/" element={<POPOSList />} />
         <Route path="about" element={<About />} />
         <Route path="/details/:id" element={<POPOSDetails />} />
+        <Route path="/newsletter" element={<NewsLetter />} />
       </Route>
     </Routes>
   </Router>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

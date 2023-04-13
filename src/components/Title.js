@@ -14,19 +14,29 @@ function Title() {
           San Francisco Privately Owned Public Open Spaces
         </div>
         <div className="Title-Buttons">
-          <NavLink 
-            className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" }
-            to="/"
-            >
-              List
-          </NavLink>
-          <NavLink 
-            className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" }
-            to="/about"
-            >
-              About
-          </NavLink>
-          <RandomSpace />
+          <div className="ListAbout">
+            <NavLink 
+              className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" }
+              to="/"
+              >
+                List
+            </NavLink>
+            <NavLink 
+              className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" }
+              to="/about"
+              >
+                About
+            </NavLink>
+          </div>
+          {/* <div className="NewsletterRandom"> */}
+            <NavLink
+              className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" }
+              to="/newsletter"
+              >
+                Sign up for our newsletter!    
+            </NavLink>
+            <RandomSpace />
+          {/* </div> */}
         </div>
       </header>
     </div>

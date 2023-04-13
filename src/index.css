@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.pageWrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh-2rem);
+  width: 100%;
+  position: relative;
+  margin-bottom: 2rem;
+}

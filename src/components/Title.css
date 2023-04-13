@@ -7,7 +7,6 @@
   justify-content: center;
   align-items: baseline;
   padding: 1em;
-  margin-bottom: 1em;
   background-color: rgb(192, 45, 26);
   color: #fff;
 }
@@ -29,6 +28,10 @@
   flex-direction: row;
 }
 
+.Title-Buttons:nth-child(2) {
+  font-size: 2rem;
+}
+
 .Title a {
   display: inline-block;
   padding: 0.5em 1em;
@@ -39,5 +42,45 @@
 
 .Title .nav-link-active {
   color: #fff;
-  border-bottom: 2px solid;
+  border: 2px solid;
+  background-color: rgb(248, 132, 132);
+}
+
+.ListAbout {
+  flex-direction: row;
+}
+
+form {
+  margin-top: 1em;
+}
+
+/* smaller screens and tablets */
+@media only screen and (max-width: 600px) {
+  .Title-Buttons {
+    flex-wrap: wrap;
+  }
+
+  button {
+    margin: auto;
+    padding: 0.5rem;
+  }
+
+  a {
+    text-align: center;
+  }
+
+  .ListAbout {
+    margin: auto;
+  }
+}
+
+/* Small screens mobile */
+@media only screen and (max-width: 500px) {
+  .Title-Buttons {
+    flex-direction: column;
+  }
+
+  .ListAbout {
+    margin: auto;
+  }
 }
