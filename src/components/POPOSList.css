@@ -12,7 +12,9 @@
 .POPOSSearch form {
 	display: flex;
 	align-items: center;
-	max-width: 1500px;
+	max-width: 1575px;
+	margin: auto;
+	margin-top: 1em;
 }
 
 .POPOSSearch form input, .POPOSSearch form button {
