@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/acs-2330-SFPOPOS-responsive-design/static/css/main.437a9975.css",
+    "main.js": "/acs-2330-SFPOPOS-responsive-design/static/js/main.4070a28d.js",
+    "static/js/787.4d65e01d.chunk.js": "/acs-2330-SFPOPOS-responsive-design/static/js/787.4d65e01d.chunk.js",
+    "index.html": "/acs-2330-SFPOPOS-responsive-design/index.html",
+    "main.437a9975.css.map": "/acs-2330-SFPOPOS-responsive-design/static/css/main.437a9975.css.map",
+    "main.4070a28d.js.map": "/acs-2330-SFPOPOS-responsive-design/static/js/main.4070a28d.js.map",
+    "787.4d65e01d.chunk.js.map": "/acs-2330-SFPOPOS-responsive-design/static/js/787.4d65e01d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.437a9975.css",
+    "static/js/main.4070a28d.js"
+  ]
+}
