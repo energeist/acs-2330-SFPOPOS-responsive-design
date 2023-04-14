@@ -1,0 +1,39 @@
+h2 {
+    text-align: center;
+}
+
+.newsletter {
+    width: fit-content;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.formField {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+
+.newsletterForm {
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.formField {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+
+input {
+    width: 100%;
+}
+
+.submitButton {
+    float: right;
+    margin-right: 0.5em;
+}

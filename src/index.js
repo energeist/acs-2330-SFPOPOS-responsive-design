@@ -7,7 +7,7 @@ import About from './components/About';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import POPOSDetails from './components/POPOSDetails';
-import NewsLetter from './components/NewsLetter';
+import Newsletter from './components/Newsletter';
 
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
@@ -19,7 +19,7 @@ root.render(
         <Route path="/" element={<POPOSList />} />
         <Route path="about" element={<About />} />
         <Route path="/details/:id" element={<POPOSDetails />} />
-        <Route path="/newsletter" element={<NewsLetter />} />
+        <Route path="/newsletter" element={<Newsletter />} />
       </Route>
     </Routes>
   </Router>
