@@ -64,6 +64,6 @@
 	}
 	.POPOSSearch {
     flex: 1;
-    margin: auto;
+    /* margin: auto; */
   }
 }

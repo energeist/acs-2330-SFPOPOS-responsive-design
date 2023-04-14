@@ -9,4 +9,5 @@
   text-align: center;
   border-top: 3px ridge black;
   justify-self: flex-end;
+  align-self: flex-end;
 }

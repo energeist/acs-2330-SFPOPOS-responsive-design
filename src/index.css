@@ -15,8 +15,8 @@ code {
 .pageWrapper {
   display: flex;
   flex-direction: column;
-  min-height: calc(100vh-2rem);
-  width: 100%;
+  min-height: calc(100vh - 2rem);
+  max-width: 100vw;
   position: relative;
   margin-bottom: 2rem;
 }

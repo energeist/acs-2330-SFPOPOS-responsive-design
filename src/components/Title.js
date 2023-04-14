@@ -32,6 +32,7 @@ function Title() {
             <NavLink
               className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" }
               to="/newsletter"
+              id="newsletter"
               >
                 Sign up for our newsletter!    
             </NavLink>

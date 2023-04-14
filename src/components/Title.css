@@ -56,6 +56,16 @@ form {
 
 /* smaller screens and tablets */
 @media only screen and (max-width: 600px) {
+
+  .Title {
+		margin-bottom: 0;
+    text-align: center;
+	}
+
+  #newsletter {
+    margin-left: auto;
+  }
+
   .Title-Buttons {
     flex-wrap: wrap;
   }
@@ -78,6 +88,10 @@ form {
 @media only screen and (max-width: 500px) {
   .Title-Buttons {
     flex-direction: column;
+  }
+
+  #newsletter {
+    margin: auto;
   }
 
   .ListAbout {
