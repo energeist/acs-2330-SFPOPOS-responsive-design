@@ -1,3 +1,19 @@
 .POPOSAbout {
+    align-self: center;
     padding: 1em 4em;
+    max-width: 600px;
+}
+
+.POPOSAbout h1 {
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .POPOSAbout p {
+        font-size: 1.5rem;
+    }
+
+    .POPOSAbout h1 {
+        font-size: 2.5rem;
+    }
 }

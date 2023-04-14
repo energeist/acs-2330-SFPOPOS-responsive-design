@@ -29,11 +29,30 @@ h2 {
     margin: 1em;
 }
 
-input {
+.newsletterForm input {
     width: 100%;
+    height: 2em;
 }
 
 .submitButton {
     float: right;
     margin-right: 0.5em;
+}
+
+@media only screen and (max-width: 640px) {
+    .newsletterText h2 {
+        font-size: 2em;
+    }
+    
+    .newsletterText li, p {
+        font-size: 1.5em;    
+    }
+
+    .POPOSAbout h1 {
+        font-size: 2.5rem;
+    }
+
+    .newsletterForm input {
+        height: 3em;
+    }
 }
