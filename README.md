@@ -1,6 +1,6 @@
 ### ACS-1320 SFPOPOS
 
-This page is available to be [viewed here!](energeist.github.io/acs-1320-popos-site)
+This page is available to be [viewed here!](energeist.github.io/acs-2330-SFPOPOS-responsive-design)
 - Styling has been updated with mobile views.
 - Small design changes from V1 of the wireframes.  Updated wireframes can be [found on Figma, here](https://www.figma.com/file/si5GInd20BGWxXeDbBOdQi/SFPOPOS-Wireframes-V-2.0?node-id=0-1&t=kDkyoaljeOInG0Fa-0).
 
