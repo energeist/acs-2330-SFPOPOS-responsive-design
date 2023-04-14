@@ -5,8 +5,6 @@ This page is available to be [viewed here!](energeist.github.io/acs-2330-SFPOPOS
 - Small design changes from V1 of the wireframes.  Updated wireframes can be [found on Figma, here](https://www.figma.com/file/si5GInd20BGWxXeDbBOdQi/SFPOPOS-Wireframes-V-2.0?node-id=0-1&t=kDkyoaljeOInG0Fa-0).
 
 ## Updated Wireframes
-
-## Wireframes
 ### Desktop view - Landing page
 ![image](https://user-images.githubusercontent.com/111889289/232111414-8c477a33-55cf-42b0-bcc4-dc8294392a68.png)
 ![image](https://user-images.githubusercontent.com/111889289/232106791-e87c1436-8fcf-4de4-8bcb-e64bc1e650fd.png)
