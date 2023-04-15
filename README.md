@@ -1,4 +1,4 @@
-### ACS-1320 SFPOPOS
+### ACS-2330 SFPOPOS
 
 This page is available to be [viewed here!](energeist.github.io/acs-2330-SFPOPOS-responsive-design)
 - Styling has been updated with mobile views.
