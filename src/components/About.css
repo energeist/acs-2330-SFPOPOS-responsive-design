@@ -1,19 +1,20 @@
 .POPOSAbout {
-    align-self: center;
-    padding: 1em 4em;
-    max-width: 600px;
+  align-self: center;
+  padding: 1em 4em;
+  max-width: 600px;
 }
 
-.POPOSAbout h1 {
-    text-align: center;
+.POPOSAbout > h2 {
+  text-align: center;
+  font-size: 2rem;
 }
 
 @media only screen and (max-width: 768px) {
-    .POPOSAbout p {
-        font-size: 1.3rem;
-    }
+  .POPOSAbout > p {
+    font-size: 1.3rem;
+  }
 
-    .POPOSAbout h1 {
-        font-size: 2rem;
-    }
+  .POPOSAbout > h2 {
+    font-size: 2rem;
+  }
 }

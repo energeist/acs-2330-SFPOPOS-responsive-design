@@ -7,6 +7,7 @@
 .POPOSSpace img {
   width: 100%;
   height: auto;
+  margin-right: 0;
 }
 
 .hours {
@@ -14,32 +15,36 @@
     margin: 0.25em;
 }
 
-.POPOSSpace .POPOSSpace-title {
+.POPOSSpace .POPOSSpace__title {
   text-decoration: none;
   color: #000;
 }
 
-.POPOSSpace h1 {
+.POPOSSpace > h2 {
   display: block;
 	position: absolute;
 	left: 0;
 	top: 0;
 	margin: 0;
-	font-weight: lighter;
+	/* font-weight: lighter; */
 	background-color: rgba(255, 255, 255, 0.75);
 	padding: 1rem;
 	text-align: left;
 }
 
-.POPOSSpace .POPOSSpace-info {
+.POPOSSpace__info {
 	position: absolute;
 	right: 0;
 	bottom: 0;
 	text-align: right;
 }
 
-.POPOSSpace .POPOSSpace-info div {
+.POPOSSpace__info > section {
 	display: inline-block;
 	padding: 0.25em 0.5em;
-	background-color: rgba(255, 255, 255, 0.7);
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.POPOSSpace__info > section {
+	font-weight: bold;
 }

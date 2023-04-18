@@ -4,9 +4,9 @@ import './Footer.css';
 
 function Footer() {
   return (
-    <div className='Footer'>
+    <section className='Footer' aria-label="footer">
       <p>Mark Rattle 2023 - for ACS-2330</p>
-    </div>
+    </section>
   )
 }
 

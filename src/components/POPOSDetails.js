@@ -9,22 +9,21 @@ import './POPOSDetails.css';
 function POPOSDetails(props) {
   const params = useParams();
   const { id } = params;// Location index
-  const { images, title, desc, hours, features, geo } = data[id];
+  const { images, title, address, desc, hours, features, geo } = data[id];
   return (
-    <div className="POPOSDetails">
-      <div className="POPOSDetails-image">
+    <article className="POPOSDetails">
+      <figure className="POPOSDetails__image">
         <img src={`${process.env.PUBLIC_URL}/images/${images[0]}`} alt={title} />
-      </div>
-      <div className="POPOSDetails-info">
-        <h1 className="POPOSDetails-title">{ title }</h1>
-        <p className="POPOSDetails-desc">{ desc }</p>
-        <p className="POPOSDetails-hours">{ hours }</p>
-        <div className="POPOSDetails-features">
-          <POPOSFeatureList features={ features }/>
-        </div>
-        <p className="POPOSDetails-geo"><em>lat: </em>{ geo.lat } <em>lon: </em>{ geo.lon }</p>
-      </div>
-    </div>
+      </figure>
+      <section className="POPOSDetails__info">
+        <h2 className="POPOSDetails__title">{ title }</h2>
+        <address><p className="POPOSDetails__address" role="contentinfo">{ address }</p></address>
+        <p className="POPOSDetails__desc">{ desc }</p>
+        <p className="POPOSDetails__hours" role="contentinfo">{ hours }</p>
+        <POPOSFeatureList features={ features }/>
+        <p className="POPOSDetails__geo"><em>lat: </em>{ geo.lat } <em>lon: </em>{ geo.lon }</p>
+      </section>
+    </article>
   )
 }
 

@@ -17,42 +17,36 @@ h2 {
     margin: 1em;
 }
 
-.newsletterForm {
+.Newsletter__form {
     width: 100%;
     margin-left: 0;
     padding-left: 0;
 }
 
-.formField {
-    display: flex;
-    flex-direction: column;
-    margin: 1em;
-}
-
-.newsletterForm input {
+.Newsletter__form > input {
     width: 100%;
     height: 2em;
 }
 
-.submitButton {
+.formSubmit {
     float: right;
     margin-right: 0.5em;
 }
 
 @media only screen and (max-width: 640px) {
-    .newsletterText h2 {
+    .Newsletter__Text > h2 {
         font-size: 2em;
     }
     
-    .newsletterText li, .newsletterText p {
+    .Newsletter__text > li, .Newsletter__text > p {
         font-size: 1.5em;    
     }
 
-    .POPOSAbout h1 {
+    .POPOSAbout > h2 {
         font-size: 2.5rem;
     }
 
-    .newsletterForm input {
+    .Newsletter__form > input {
         height: 3em;
     }
 }

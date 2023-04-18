@@ -27,19 +27,22 @@ function POPOSList() {
   });
 
   return (
-    <div className="POPOSSearch">
+    <section className="POPOSSearch" role="search">
       <form>
         <input
+          id="search"
+          type="search"
           value={query}
           placeholder="search"
           onChange={(evt) => setQuery(evt.target.value)}
+          aria-label="Search for POPOS spaces"
         />
         <button type="submit">Submit</button>
       </form>
-      <div className="POPOSList">
+      <main className="POPOSList" role="region" aria-live="polite">
         { spaces.length > 0 ? spaces : "No results match your search" } 
-      </div>
-    </div>
+      </main>
+    </section>
   )
 }
 
